@@ -156,6 +156,25 @@ body {
     margin-top: 4px;
 }
 
+.footer {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    color: #00eaff;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 12px rgba(0,255,255,0.6);
+    opacity: 0.95;
+    transition: 0.3s ease;
+}
+
+.footer:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 0 18px rgba(0,255,255,0.9);
+}
+
 /* Controls */
 .controls {
     background: rgba(255,255,255,0.04);
@@ -411,6 +430,10 @@ if uploaded:
 
 else:
     st.info("Upload a workbook to begin validation.")
-
-st.markdown("<div class='footer'>Built with ❤️ using FastAPI + Streamlit by <b>Madhukesh</b></div>", unsafe_allow_html=True)
+    
+#-------------------------------------------Footer----------------------------------------------------------------------------------------
+st.markdown(
+    "<div class='footer'>Built with ❤️ using FastAPI + Streamlit by <b>Madhukesh</b></div>",
+    unsafe_allow_html=True
+)
 
