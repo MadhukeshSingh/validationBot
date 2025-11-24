@@ -411,3 +411,6 @@ if uploaded:
 
 else:
     st.info("Upload a workbook to begin validation.")
+
+st.markdown("<div class='footer'>Built with ❤️ using FastAPI + Streamlit by <b>Madhukesh</b></div>", unsafe_allow_html=True)
+
