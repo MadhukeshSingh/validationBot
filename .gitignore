@@ -1,0 +1,33 @@
+# Ignore Python virtual environment
+venv/
+env/
+.venv/
+ENV/
+VENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Streamlit specific
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# pyenv
+.python-version
+
+# Local environment files
+.env
+*.env
